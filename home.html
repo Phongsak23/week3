@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple CSS Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Charm&family=Sriracha&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Prompt', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav{
+            background-color: #333;
+            color: white;
+            padding: 10px 50px 10px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            right: 0;
+            left: 0;
+        }
+
+        .logo {
+            margin-left: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 16px;
+            display: inline-block;
+        }
+
+        #content {
+            font-family: 'Sriracha', cursive;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 90vh;
+        }
+
+        footer{
+            background-color: black;
+            color: lightcoral;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        a.btn{
+            height: 20px;
+            width: 80px;
+            margin-top: 15px;
+            border-radius: 30px;
+            background-color: #3d3838;
+            color: rgb(255, 255, 255);
+            border: solid 1px #333;
+
+            padding: 18px;
+            text-align: center;
+            text-decoration: none;
+        }
+        a.btn:hover{
+            background-color: rgb(255, 255, 255);
+            color: #3d3838;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <!-- <img src="" alt="LOGO" width="50"> -->
+            
+            <img src="https://www.cleverfiles.com/howto/wp-content/uploads/2018/03/minion.jpg"alt="Date" width="50">
+        </div>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Service</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <main id="content">
+        <h1>บริษัท ซุ่นชัย อินดัสตรี้ จำกัด</h1>
+        <p>โรงงานผลิต</p>
+        <a href="#" class="btn">Star Now</a>
+    </main>
+
+    <footer>
+        &copy; Phongsak Rukam
+    </footer>
+
+</body>
+
+</html>
